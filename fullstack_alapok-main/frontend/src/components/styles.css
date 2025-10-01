@@ -1,0 +1,81 @@
+/* Táblázat stílusok */
+.table-header {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.table-cell {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.no-users-cell {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Gomb stílusok */
+.save-button {
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.cancel-button {
+    padding: 5px;
+    background-color: #9E9E9E;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-button {
+    padding: 5px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.delete-button {
+    padding: 5px;
+    background-color: #F44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
